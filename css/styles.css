@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  margin: 5px;
+  line-height: 1.5;
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+}
+.wrapper {
+  background-color: #d5d7de;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+}
+header, main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+header {
+  padding: 30px 0 0 0;
+  background-color: #d5d7de;
+}
+header h1 {
+  font-size: 38px;
+}
+header h4 {
+  margin-top: 30px;
+}
+main {
+
+}
+main figcaption {
+  padding: 10px 0 15px 0;
+}
+
+#img-div {
+  background-color: white;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+#img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+section {
+
+}
+
+section h3 {
+  padding: 40px;
+  font-size: 20px;
+}
+
+section .list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.list li {
+  text-align: left;
+  margin-top: 16px;
+  /* text-transform: capitalize; */
+}
+
+.quote-holder {
+  max-width: 550px;
+  margin: 30px 50px 15px 0;
+}
+
+.quote {
+  text-align: left;
+  font-style: italic;
+}
+.quote:before {
+  content: '"';
+}
+.quote:after {
+  content: '"';
+}
+.quote-author {
+  text-align: left;
+  margin-top: 10px;
+  font-style: italic;
+
+}
+.quote-author:before {
+  content:'--';
+  font-style: italic;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+footer span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer a {
+  color: #76a0e3;
+}
